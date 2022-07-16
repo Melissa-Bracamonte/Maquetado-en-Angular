@@ -1,0 +1,258 @@
+/* cdk-virtual-scroll-viewport { */
+  @media only screen and (max-width: 1074px) {
+    body {
+      background-color: #ff9800;
+    }
+
+    #globalContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 7%;
+      width: 90%;
+      height: 755px;
+      margin-left: 5%;
+    }
+
+    .leftContainer {
+      margin-top: 2%;
+    }
+
+    .containerCard {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #lightbulbBtn {
+      background-color: #0c8fa2;
+      border: none;
+      width: 60px;
+      height: 60px;
+      margin-top: -25px;
+      margin-left: 7%;
+    }
+
+    .bi-journal-text {
+      margin-left: 28%;
+      margin-top: -5%;
+    }
+
+    .ideaSummary {
+      display: flex;
+      flex-direction: row;
+      margin-top: 50px;
+      margin-left: 5%;
+      width: 420px;
+    }
+
+    .ideaSummaryText {
+      display: none;
+    }
+
+    .ideaSummaryTextMobile {
+      white-space: nowrap;
+      font-size: 15px;
+    }
+
+    .linesOfText {
+      display: none;
+    }
+
+    .bi-pencil-fill {
+      width: 12px;
+    }
+
+    .row {
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .phrases {
+      color: #2c7eb4;
+      display: flex;
+      justify-content: center;
+    }
+
+    .blackPhrases {
+      display: flex;
+      justify-content: center;
+    }
+
+    .dateMobile {
+      font-size: 13px;
+      color: grey;
+    }
+
+    #btnOrange {
+      background-color: #ff9800;
+      margin-left: 47%;
+    }
+
+    .line {
+      display: flex;
+      justify-content: center;
+    }
+
+    .rightContainer {
+      display: none;
+    }
+
+    .rightContainerMobile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .qualification {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .bi-star {
+      color: #febc77;
+      margin-left: 5px;
+    }
+
+    .reviews {
+      margin-left: 3px;
+    }
+
+    .postDate {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .bi-calendar2-week {
+      margin-right: 10px;
+    }
+  }
+
+  @media screen and (min-width: 1074px) {
+    body {
+      background-color: #ff9800;
+    }
+
+    #globalContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 5%;
+      width: 95%;
+      margin-left: 2%;
+    }
+
+    .leftContainer {
+      margin-top: 2%;
+    }
+
+    .containerCard {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #lightbulbBtn {
+      background-color: #0c8fa2;
+      border: none;
+      width: 60px;
+      height: 60px;
+      margin-top: -40px;
+      margin-left: 15px;
+    }
+
+    .bi-journal-text {
+      margin-left: 15%;
+      margin-top: -5%;
+    }
+
+    .ideaSummary {
+      display: flex;
+      flex-direction: row;
+      margin-top: 50px;
+      margin-left: 5%;
+    }
+
+    #noImageUploaded {
+      width: 500px;
+    }
+
+    .ideaSummaryText {
+      white-space: nowrap;
+      margin-left: 25px;
+      font-size: 15px;
+      margin-top: 50px;
+    }
+
+    .ideaSummaryTextMobile {
+      display: none;
+    }
+
+    .linesOfText {
+      margin-right: 30%;
+      margin-top: 20px;
+    }
+
+    .linesOfTextMobile {
+      display: none;
+    }
+
+    .bi-pencil-fill {
+      width: 12px;
+    }
+
+    .row {
+      justify-content: space-evenly;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .phrases {
+      color: #2c7eb4;
+    }
+
+    #btnOrange {
+      background-color: #ff9800;
+    }
+
+    .line {
+      display: flex;
+      justify-content: center;
+    }
+
+    .rightContainer {
+      margin-top: 10%;
+      margin-right: 4%;
+    }
+
+    .rightContainerMobile {
+      display: none;
+    }
+
+    .qualification {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .postedText {
+      margin-right: 5px;
+    }
+
+    .bi-star {
+      color: #febc77;
+      margin-left: 5px;
+    }
+
+    .reviews {
+      margin-left: 3px;
+    }
+
+    .postDate {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .bi-calendar2-week {
+      margin-right: 10px;
+    }
+  }
+/* } */
